@@ -2,11 +2,11 @@
 
 from datetime import datetime
 
-from robin_stocks.robinhood.globals import SESSION
-from robin_stocks.robinhood.helper import *
-from robin_stocks.robinhood.profiles import *
-from robin_stocks.robinhood.stocks import *
-from robin_stocks.robinhood.urls import *
+from .globals import SESSION
+from .helper import *
+from .profiles import *
+from .stocks import *
+from .urls import *
 
 
 @login_required

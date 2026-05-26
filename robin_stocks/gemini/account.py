@@ -1,6 +1,6 @@
-from robin_stocks.gemini.authentication import generate_signature
-from robin_stocks.gemini.helper import format_inputs, login_required, request_post
-from robin_stocks.gemini.urls import URLS
+from .authentication import generate_signature
+from .helper import format_inputs, login_required, request_post
+from .urls import URLS
 
 
 @login_required

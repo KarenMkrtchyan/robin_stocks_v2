@@ -2,8 +2,8 @@
 
 from functools import lru_cache as cache
 
-from robin_stocks.robinhood.helper import *
-from robin_stocks.robinhood.urls import *
+from .helper import *
+from .urls import *
 
 
 def get_quotes(inputSymbols, info=None):

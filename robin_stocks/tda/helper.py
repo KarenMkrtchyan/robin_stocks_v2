@@ -5,7 +5,7 @@ from re import IGNORECASE, split
 
 import requests
 
-from robin_stocks.tda.globals import LOGGED_IN, RETURN_PARSED_JSON_RESPONSE, SESSION
+from .globals import LOGGED_IN, RETURN_PARSED_JSON_RESPONSE, SESSION
 
 
 def get_order_number(data):

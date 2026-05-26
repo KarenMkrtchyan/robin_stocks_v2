@@ -2,8 +2,8 @@
 
 import sys
 
-from robin_stocks.robinhood.helper import *
-from robin_stocks.robinhood.urls import *
+from .helper import *
+from .urls import *
 
 # Per-symbol overrides for the chain_symbol used when querying option chains
 # for index options. Robinhood publishes the weekly/PM-settled chains under

@@ -4,8 +4,8 @@ import os
 import secrets
 import time
 
-from robin_stocks.robinhood.helper import *
-from robin_stocks.robinhood.urls import *
+from .helper import *
+from .urls import *
 
 
 def generate_device_token():

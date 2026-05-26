@@ -1,7 +1,7 @@
 """Contains functions for getting all the information tied to a user account."""
 
-from robin_stocks.robinhood.helper import *
-from robin_stocks.robinhood.urls import *
+from .helper import *
+from .urls import *
 
 
 @login_required

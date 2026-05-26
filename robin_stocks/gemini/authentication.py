@@ -6,7 +6,7 @@ from json import dumps
 from random import random
 from time import mktime
 
-from robin_stocks.gemini.helper import (
+from .helper import (
     format_inputs,
     get_nonce,
     get_secret_key,
@@ -17,7 +17,7 @@ from robin_stocks.gemini.helper import (
     set_secret_key,
     update_session,
 )
-from robin_stocks.gemini.urls import URLS
+from .urls import URLS
 
 
 def login(api_key, secret_key):

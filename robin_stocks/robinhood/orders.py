@@ -2,11 +2,11 @@
 
 from uuid import uuid4
 
-from robin_stocks.robinhood.crypto import *
-from robin_stocks.robinhood.helper import *
-from robin_stocks.robinhood.profiles import *
-from robin_stocks.robinhood.stocks import *
-from robin_stocks.robinhood.urls import *
+from .crypto import *
+from .helper import *
+from .profiles import *
+from .stocks import *
+from .urls import *
 
 
 @login_required

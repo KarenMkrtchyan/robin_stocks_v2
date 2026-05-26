@@ -5,7 +5,7 @@ from functools import wraps
 
 import requests
 
-from robin_stocks.robinhood.globals import (
+from .globals import (
     _RATE_LIMIT_LOCK,
     LAST_REQUEST_TIME,
     LOGGED_IN,
@@ -202,7 +202,7 @@ def id_for_futures_contract(symbol):
     :returns: A string representing the contract ID or None if not found
 
     """
-    from robin_stocks.robinhood.urls import futures_contract_url
+    from .urls import futures_contract_url
 
     try:
         symbol = symbol.upper().strip()

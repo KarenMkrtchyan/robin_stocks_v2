@@ -5,9 +5,9 @@ from pathlib import Path
 
 from cryptography.fernet import Fernet
 
-from robin_stocks.tda.globals import DATA_DIR_NAME, PICKLE_NAME
-from robin_stocks.tda.helper import request_data, set_login_state, update_session
-from robin_stocks.tda.urls import URLS
+from .globals import DATA_DIR_NAME, PICKLE_NAME
+from .helper import request_data, set_login_state, update_session
+from .urls import URLS
 
 
 def login_first_time(encryption_passcode, client_id, authorization_token, refresh_token):

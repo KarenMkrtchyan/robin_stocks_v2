@@ -1,6 +1,6 @@
 """Contains functions for getting futures information."""
 
-from robin_stocks.robinhood.helper import (
+from .helper import (
     filter_data,
     get_output,
     id_for_futures_contract,
@@ -8,7 +8,7 @@ from robin_stocks.robinhood.helper import (
     request_get,
     update_session_for_futures,
 )
-from robin_stocks.robinhood.urls import futures_account_url, futures_contract_url, futures_orders_url, futures_quotes_url
+from .urls import futures_account_url, futures_contract_url, futures_orders_url, futures_quotes_url
 
 # Contract Functions
 
